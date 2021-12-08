@@ -1,0 +1,109 @@
+.navbar .navbar-menu-wrapper {
+    background: #e5e5e5;
+    transition: width 0.25s ease;
+    -webkit-transition: width 0.25s ease;
+    -moz-transition: width 0.25s ease;
+    -ms-transition: width 0.25s ease;
+    color: #6c7383;
+    padding-right: 2.375rem;
+    padding-left: 2.375rem;
+    width: calc(100% - 235px);
+    height: 60px;
+}
+
+.heading {
+    font-family: Poppins;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(96, 79, 210, 0.88);
+    width: 100%;
+}
+
+.underline {
+    height: 4px;
+    width: 37px;
+    background: rgba(96, 79, 210, 0.88);
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.stretch-card {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-justify-content: stretch;
+    justify-content: stretch;
+}
+
+input.date {
+    background: #ffffff38;
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+    padding: 0px 10px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+p.perag {
+    padding: 36px 0px;
+    color: gray;
+}
+
+p.count {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+p.percent {
+    padding: 20px 0px;
+    color: #7364d7;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.col-md-5.grid-margin {
+    border-right: 2px solid #8080806e;
+}
+
+.ad-title {
+    left: 326px;
+    top: 237px;
+    background: #e34133;
+    padding: 20px;
+    margin: 40px 0px 20px;
+    color: white;
+}
+
+.ad-title-fb {
+    left: 326px;
+    top: 237px;
+    background: #084298;
+    padding: 20px;
+    margin: 40px 0px 20px;
+    color: white;
+}
+
+.ad-title-bk {
+    left: 326px;
+    top: 237px;
+    background: #000000;
+    padding: 20px;
+    margin: 40px 0px 20px;
+    color: white;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 0;
+    margin-top: 0px !important;
+}
+
+.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal {
+    margin: auto;
+    background: white;
+}
