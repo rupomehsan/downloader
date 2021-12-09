@@ -5,16 +5,16 @@
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
 
-include_once '../api_class/Service.php';
-$service = new Service();
+// include_once '../api_class/Service.php';
+// $service = new Service();
 
-if ($_SERVER['REQUEST_METHOD'] == "POST") {
+// if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
-    // echo "<pre>";
-    // print_r($_FILES);
-    // var_dump($_POST);
-    // die;
+//     // echo "<pre>";
+//     // print_r($_FILES);
+//     // var_dump($_POST);
+//     // die;
 
-    $getWebNotification = $service->addNotification($_POST, $_FILES);
-    echo $getWebNotification;
-}
+//     $getWebNotification = $service->addNotification($_POST, $_FILES);
+//     echo $getWebNotification;
+// }
